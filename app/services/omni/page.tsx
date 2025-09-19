@@ -247,7 +247,7 @@ export default function OmniChannelPage() {
               双平台协同优势
             </h2>
             <p className="text-xl text-muted-foreground">
-              1+1>2 的运营效果
+              1+1{'>'}2 的运营效果
             </p>
           </div>
 

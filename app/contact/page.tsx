@@ -55,7 +55,7 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: "电话咨询",
-      content: "400-1234-5678",
+      content: "13972539707",
       subtitle: "7*12小时在线客服",
       color: "text-blue-600"
     },
@@ -76,7 +76,7 @@ export default function ContactPage() {
     {
       icon: MapPin,
       title: "公司地址",
-      content: "上海市浦东新区张江高科技园区",
+      content: "湖北省宜昌市伍家岗区旭光商贸大厦903",
       subtitle: "欢迎实地考察",
       color: "text-orange-600"
     }
@@ -139,7 +139,7 @@ export default function ContactPage() {
                 <Phone className="w-5 h-5 text-blue-600" />
                 <div>
                   <div className="font-semibold">应急联系</div>
-                  <div className="text-sm text-muted-foreground">400-1234-5678</div>
+                  <div className="text-sm text-muted-foreground">13972539707</div>
                 </div>
               </div>
               <div className="flex items-center justify-center space-x-2 p-4 border rounded-lg">

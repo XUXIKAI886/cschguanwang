@@ -8,7 +8,7 @@ export function CtaSection() {
     {
       title: "电话咨询",
       description: "7*12小时在线客服",
-      action: "400-1234-5678",
+      action: "13972539707",
       icon: Phone,
       color: "bg-blue-100 text-blue-600"
     },

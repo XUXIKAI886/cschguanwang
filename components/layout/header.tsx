@@ -46,11 +46,11 @@ export function Header() {
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center space-x-4">
           <a
-            href="tel:400-1234-5678"
+            href="tel:13972539707"
             className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-foreground"
           >
             <Phone className="w-4 h-4" />
-            <span>400-1234-5678</span>
+            <span>13972539707</span>
           </a>
           <Button asChild>
             <Link href="/contact">免费诊断</Link>
@@ -83,11 +83,11 @@ export function Header() {
             ))}
             <div className="pt-4 border-t space-y-4">
               <a
-                href="tel:400-1234-5678"
+                href="tel:13972539707"
                 className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-foreground"
               >
                 <Phone className="w-4 h-4" />
-                <span>400-1234-5678</span>
+                <span>13972539707</span>
               </a>
               <Button asChild className="w-full">
                 <Link href="/contact" onClick={() => setIsMenuOpen(false)}>

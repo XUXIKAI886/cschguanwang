@@ -59,30 +59,38 @@ export function StatsSection() {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-50 to-purple-50">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+    <section className="py-24 bg-white relative overflow-hidden">
+      {/* 背景装饰 */}
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-blue-50/30" />
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-blue-500/20 to-transparent" />
+      
+      <div className="container mx-auto px-4 relative">
+        <div className="text-center mb-20">
+          <div className="inline-flex items-center px-4 py-2 bg-blue-50 rounded-full text-blue-600 text-sm font-medium mb-6">
+            <TrendingUp className="w-4 h-4 mr-2" />
             可度量的成功指标
+          </div>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-gray-900 to-blue-800 bg-clip-text text-transparent">
+            我们用数据说话
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            我们用数据说话，每一个指标都是对客户承诺的兑现
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            每一个指标都是对客户承诺的兑现，透明化的数据展示让合作更有信心
           </p>
         </div>
 
         {/* 主要指标展示 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
           {mainStats.map((stat, index) => {
             const IconComponent = stat.icon
             return (
-              <Card key={index} className="text-center group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-                <CardContent className="p-6">
-                  <div className={`w-16 h-16 mx-auto mb-4 rounded-full ${stat.bgColor} flex items-center justify-center`}>
-                    <IconComponent className={`w-8 h-8 ${stat.color}`} />
+              <Card key={index} className="text-center group hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border-0 bg-white/80 backdrop-blur-sm shadow-lg">
+                <CardContent className="p-8">
+                  <div className={`w-20 h-20 mx-auto mb-6 rounded-2xl ${stat.bgColor} flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`}>
+                    <IconComponent className={`w-10 h-10 ${stat.color}`} />
                   </div>
-                  <div className="text-3xl font-bold mb-2">{stat.value}</div>
-                  <div className="font-semibold text-foreground mb-2">{stat.label}</div>
-                  <div className="text-sm text-muted-foreground">{stat.description}</div>
+                  <div className="text-4xl font-black mb-3 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{stat.value}</div>
+                  <div className="font-bold text-gray-900 mb-3 text-lg">{stat.label}</div>
+                  <div className="text-sm text-muted-foreground leading-relaxed">{stat.description}</div>
                 </CardContent>
               </Card>
             )

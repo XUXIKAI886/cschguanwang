@@ -20,7 +20,7 @@ export function Footer() {
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>400-1234-5678</span>
+                <span>13972539707</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
@@ -28,7 +28,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4" />
-                <span>上海市浦东新区张江高科技园区</span>
+                <span>湖北省宜昌市伍家岗区旭光商贸大厦903</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Clock className="w-4 h-4" />
@@ -120,7 +120,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>© 2025 呈尚策划. 保留所有权利. | 沪ICP备12345678号</p>
+          <p>© 2025 呈尚策划. 保留所有权利.</p>
         </div>
       </div>
     </footer>

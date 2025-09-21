@@ -137,8 +137,8 @@ export default function LegalPage() {
               </p>
               <div className="space-y-2 text-sm">
                 <p><strong>邮箱：</strong>legal@chengshang.com</p>
-                <p><strong>电话：</strong>400-1234-5678</p>
-                <p><strong>地址：</strong>上海市浦东新区张江高科技园区</p>
+                <p><strong>电话：</strong>13972539707</p>
+                <p><strong>地址：</strong>湖北省宜昌市伍家岗区旭光商贸大厦903</p>
               </div>
             </CardContent>
           </Card>

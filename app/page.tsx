@@ -10,10 +10,10 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
-      <ServicesSection />
       <StatsSection />
-      <CasesSection />
+      <ServicesSection />
       <SocialProofSection />
+      <CasesSection />
       <InsightsSection />
       <CtaSection />
     </>

@@ -69,7 +69,7 @@ export function ServicesSection() {
   ]
 
   return (
-    <section className="relative py-32 bg-card overflow-hidden">
+    <section className="relative py-32 bg-muted/30 overflow-hidden">
       {/* 背景装饰 */}
       <div className="absolute inset-0 bg-grid opacity-10" />
       
@@ -109,7 +109,7 @@ export function ServicesSection() {
             return (
               <div
                 key={index}
-                className="group relative rounded-3xl bg-background border border-border p-8 transition-all duration-500 card-hover cursor-pointer"
+                className="group relative rounded-3xl bg-background border border-border p-8 transition-all duration-500 card-hover cursor-pointer shadow-sm hover:shadow-lg"
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
               >

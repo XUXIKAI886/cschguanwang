@@ -97,7 +97,7 @@ export function SocialProofSection() {
             return (
               <div
                 key={index}
-                className="group relative p-6 rounded-3xl bg-card border border-border transition-all duration-500 card-hover"
+                className="group relative p-6 rounded-3xl bg-card border border-border transition-all duration-500 card-hover shadow-sm hover:shadow-lg"
               >
                 <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${cert.color} flex items-center justify-center mb-4 shadow-lg`}>
                   <IconComponent className="w-7 h-7 text-white" />
@@ -112,7 +112,7 @@ export function SocialProofSection() {
         {/* 客户评价与数据 */}
         <div className="grid lg:grid-cols-2 gap-8">
           {/* 左侧：客户评价轮播 */}
-          <div className="relative p-8 lg:p-10 rounded-3xl bg-card border border-border">
+          <div className="relative p-8 lg:p-10 rounded-3xl bg-card border border-border shadow-sm">
             <Quote className="w-12 h-12 text-primary/20 mb-6" />
             
             <div className="min-h-[200px]">
@@ -172,7 +172,7 @@ export function SocialProofSection() {
           </div>
 
           {/* 右侧：客户构成 */}
-          <div className="p-8 lg:p-10 rounded-3xl bg-card border border-border">
+          <div className="p-8 lg:p-10 rounded-3xl bg-card border border-border shadow-sm">
             <h3 className="text-2xl font-bold text-foreground mb-8">服务客户构成</h3>
             
             <div className="space-y-6">

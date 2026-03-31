@@ -43,8 +43,8 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-grid opacity-40" />
       
       {/* 渐变光晕 */}
-      <div className="absolute top-1/4 left-1/4 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[120px]" />
-      <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-[hsl(var(--eleme-blue))]/10 rounded-full blur-[100px]" />
+      <div className="absolute top-1/4 left-1/4 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[120px]" />
+      <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-[hsl(var(--eleme-blue))]/5 rounded-full blur-[100px]" />
       
       {/* 噪点纹理 */}
       <div className="absolute inset-0 noise" />
@@ -113,7 +113,7 @@ export function HeroSection() {
 
           {/* 右侧数据看板 */}
           <div className="relative animate-fade-up" style={{ animationDelay: '0.5s' }}>
-            <div className="relative bg-card rounded-3xl border border-border p-8 lg:p-10 space-y-8">
+            <div className="relative bg-card rounded-3xl border border-border p-8 lg:p-10 space-y-8 shadow-xl shadow-black/5">
               {/* 装饰线条 */}
               <div className="absolute top-0 left-8 right-8 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
               
@@ -198,7 +198,7 @@ export function HeroSection() {
       </div>
 
       {/* 底部滚动品牌条 */}
-      <div className="absolute bottom-0 left-0 right-0 border-t border-border bg-card/50 backdrop-blur-sm py-6 overflow-hidden">
+      <div className="absolute bottom-0 left-0 right-0 border-t border-border bg-muted/50 backdrop-blur-sm py-6 overflow-hidden">
         <div className="flex animate-scroll-x">
           {[...Array(2)].map((_, setIndex) => (
             <div key={setIndex} className="flex shrink-0 items-center gap-12 px-6">

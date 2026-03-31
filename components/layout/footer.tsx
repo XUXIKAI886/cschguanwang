@@ -33,7 +33,7 @@ export function Footer() {
   ]
 
   return (
-    <footer className="relative bg-card border-t border-border overflow-hidden">
+    <footer className="relative bg-muted/30 border-t border-border overflow-hidden">
       {/* 背景装饰 */}
       <div className="absolute inset-0 bg-grid opacity-5" />
       <div className="absolute bottom-0 left-1/4 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[150px]" />

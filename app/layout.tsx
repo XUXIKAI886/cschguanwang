@@ -17,7 +17,7 @@ const spaceGrotesk = Space_Grotesk({
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#0a0a0a',
+  themeColor: '#ffffff',
 }
 
 export const metadata: Metadata = {
@@ -46,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="zh-CN" className="dark">
+    <html lang="zh-CN">
       <body className={`${inter.variable} ${spaceGrotesk.variable} font-sans antialiased`}>
         <div className="min-h-screen flex flex-col bg-background text-foreground">
           <Header />

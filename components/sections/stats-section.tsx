@@ -149,7 +149,7 @@ export function StatsSection() {
             return (
               <div 
                 key={index} 
-                className={`relative group p-8 rounded-3xl bg-card border ${stat.borderColor} transition-all duration-500 hover:scale-105 card-hover`}
+                className={`relative group p-8 rounded-3xl bg-card border ${stat.borderColor} transition-all duration-500 hover:scale-105 card-hover shadow-sm hover:shadow-lg`}
                 style={{ 
                   opacity: isInView ? 1 : 0, 
                   transform: isInView ? 'translateY(0)' : 'translateY(40px)',

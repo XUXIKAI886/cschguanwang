@@ -96,7 +96,7 @@ export function CtaSection() {
             {/* 发光效果 */}
             <div className="absolute inset-0 bg-white/20 rounded-3xl blur-xl" />
             
-            <div className="relative bg-background rounded-3xl border border-border p-8 lg:p-10 shadow-2xl">
+            <div className="relative bg-background rounded-3xl border border-border p-8 lg:p-10 shadow-2xl shadow-black/10">
               <div className="text-center mb-8">
                 <h3 className="text-2xl lg:text-3xl font-black text-foreground mb-2">免费门店诊断</h3>
                 <p className="text-muted-foreground">
